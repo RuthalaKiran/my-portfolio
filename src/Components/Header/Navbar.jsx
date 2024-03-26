@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           <ul className=" flex-col sm:flex-row flex gap-5 sm:gap-10 px-5 py-3 ">
             {navele.map((item, index) => (
-             <div className="text-gray-600 dark:text-gray-400 cursor-pointer">
+             <div key={index} className="text-gray-600 dark:text-gray-400 cursor-pointer">
                <Link
               key={index}
                 activeClass="text-gray-950 dark:text-gray-100 font-semibold"

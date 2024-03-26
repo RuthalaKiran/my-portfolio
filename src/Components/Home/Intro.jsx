@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import myresume from "../../assets/kiran'sresume.pdf";
 
 const Intro = () => {
   return (
@@ -30,7 +31,7 @@ const Intro = () => {
         </p>
         <p className="text-gray-800 dark:text-gray-400">
           I'm a passionate frontend web developer currently working towards
-          becoming a full stack developer.
+          becoming a full stack developer (MERN).
         </p>
         <div className="flex mt-3 gap-5">
           <a
@@ -56,9 +57,14 @@ const Intro = () => {
           >
             <button>Hire Me</button>
           </Link>
-          <Link className="flex items-center justify-center border border-gray-500 bg-transparent relative z-10 before:z-[-1]  before:absolute before:bg-gray-300 dark:before:bg-gray-600 before:w-0 before:rounded-md before:hover:w-full before:h-full before:transition-all before:duration-500 before:left-0 before:ease-out text-gray-800 dark:text-gray-100 px-2 py-1 text-md sm:text-lg p-1 rounded-md">
-            <button>Download Resume</button>
-          </Link>
+          <a
+            href={myresume}
+            target="_blank"
+            download="kiran's resume"
+            className="flex items-center justify-center border border-gray-500 bg-transparent relative z-10 before:z-[-1]  before:absolute before:bg-gray-300 dark:before:bg-gray-600 before:w-0 before:rounded-md before:hover:w-full before:h-full before:transition-all before:duration-500 before:left-0 before:ease-out text-gray-800 dark:text-gray-100 px-2 py-1 text-md sm:text-lg p-1 rounded-md"
+          >
+            <p>Download Resume</p>
+          </a>
         </div>
       </div>
       <div className="hidden md:flex justify-center items-center">

@@ -37,7 +37,7 @@ const Footer = () => {
     <div className="bg-gray-100 px-1 dark:bg-gray-700/20 dark:text-gray-300 flex flex-col gap-7 items-center justify-center py-5">
       <ul className="flex gap-7 flex-wrap items-center justify-center">
         {navele.map((item) => (
-          <Link to={item.link} className="cursor-pointer">
+          <Link key={item.id} to={item.link} className="cursor-pointer">
             {item.name}
           </Link>
         ))}
