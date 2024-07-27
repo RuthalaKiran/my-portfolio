@@ -165,7 +165,7 @@ const Projects = () => {
                     Code <FaGithub />{" "}
                   </a>
                   <a
-                    href="https://youtube-clone-react11753.netlify.app/"
+                    href="https://vidtube-react-app.netlify.app/"
                     target="_blank"
                     className="flex items-center gap-1 hover:scale-105 duration-200 bg-gray-700 text-gray-200 text-lg px-3 py-1 rounded-full"
                   >
