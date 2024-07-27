@@ -206,7 +206,7 @@ const Projects = () => {
                   Code <FaGithub />{" "}
                 </a>
                 <a
-                  href="https://vidtube-react-app.netlify.app/
+                  href="https://vidtube-react-app.netlify.app/"
                   target="_blank"
                   className="flex items-center gap-1 hover:scale-110 duration-200"
                 >
