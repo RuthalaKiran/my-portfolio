@@ -9,7 +9,7 @@ import Title from "../Title/Title";
 const Projects = () => {
   return (
     <div className="pt-5">
-       <Title text="Projects" />
+      <Title text="Projects" />
       <div className="py-10 flex flex-col gap-5">
         {/* project 1 image search */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 my-5">
@@ -78,7 +78,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <hr className=" md:hidden w-full h-[1px] bg-gray-300 dark:bg-gray-600 border-none"/>
+        <hr className=" md:hidden w-full h-[1px] bg-gray-300 dark:bg-gray-600 border-none" />
         {/* project 2 shoppy */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 my-5">
           <div className="matter flex flex-col items-center md:items-end justify-center gap-5 ">
@@ -145,7 +145,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <hr className=" md:hidden w-full h-[1px] bg-gray-300 dark:bg-gray-600 border-none"/>
+        <hr className=" md:hidden w-full h-[1px] bg-gray-300 dark:bg-gray-600 border-none" />
         {/* project 3 youtube clone */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 my-5">
           <div className=" flex justify-center md:justify-end">
