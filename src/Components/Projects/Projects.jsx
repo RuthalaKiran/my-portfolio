@@ -2,6 +2,7 @@ import React from "react";
 import project1img from "../../assets/project/project1tabletview.png";
 import project2img from "../../assets/project/project2.1.png";
 import project3img from "../../assets/project/project3tabletview.png";
+import project4img from "../../assets/project/dealspy.png";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Title from "../Title/Title";
@@ -158,7 +159,7 @@ const Projects = () => {
                 />
                 <div className=" hidden w-full h-full top-0  group-hover:flex gap-5 absolute justify-center items-center">
                   <a
-                    href="https://github.com/RuthalaKiran/YouTube-clone"
+                    href="https://github.com/RuthalaKiran/Vidtbe-Youtube-clone"
                     target="_blank"
                     className="flex items-center gap-1 hover:scale-105 duration-200 bg-gray-200 text-lg px-3 py-1 text-gray-700 rounded-full"
                   >
@@ -199,7 +200,7 @@ const Projects = () => {
               </div>
               <div className="flex items-center gap-10 text-md lg:mt-3">
                 <a
-                  href="https://github.com/RuthalaKiran/YouTube-clone"
+                  href="https://github.com/RuthalaKiran/Vidtbe-Youtube-clone"
                   target="_blank"
                   className="flex items-center gap-1 hover:scale-110 duration-200"
                 >
@@ -216,6 +217,77 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* project 4 DealSpy clone */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 my-5">
+          <div className="matter flex flex-col items-center md:items-end justify-center gap-5 ">
+            <div className="flex flex-col md:max-w-[500px] items-center justify-center gap-3 md:gap-4 lg:gap-5 ">
+              <h1 className=" font-semibold text-md lg:text-xl text-gray-800 dark:text-gray-300">
+              DealSpy - Amazon web scraping
+              </h1>
+              <p className="text-gray-700 md:px-0 sm:px-10 px-3 md:text-[14px] lg:text-lg dark:text-gray-400">
+              DealSpy is a web scraping tool built with the MERN stack for
+                tracking Amazon product prices. It extracts details from links,
+                stores real-time and historical data in MongoDB, and sends price
+                change notifications via Nodemailer. The user-friendly interface
+                is developed with React.js and Node.js.
+              </p>
+              <div className="flex dark:text-gray-300 gap-5 text-xs md:text-sm lg:text-md font-semibold">
+              <p>React Js</p>
+                <p>Tailwind Css</p>
+                <p>MongoDB</p>
+                <p>Express Js</p>
+                <p>Node Js</p>
+                <p>react-router-rom</p>
+              </div>
+              <div className="flex items-center gap-10 text-md lg:mt-3">
+                <a
+                  href="https://github.com/RuthalaKiran/Dealspy-webscraping"
+                  target="_blank"
+                  className="flex items-center gap-1 hover:scale-110 duration-200"
+                >
+                  Code <FaGithub />{" "}
+                </a>
+                <a
+                  href="https://dealspy-frontend.onrender.com/"
+                  target="_blank"
+                  className="flex items-center gap-1 hover:scale-110 duration-200"
+                >
+                  Live <FaExternalLinkAlt />{" "}
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className=" flex justify-center md:justify-start">
+            <div className="   image  items-center flex justify-center ">
+              <div className="max-w-[500px]  relative group rounded-md cursor-pointer">
+                <img
+                  src={project4img}
+                  className=" group-hover:blur-[2px] w-full h-full object-cover hover:blur-sm rounded-md"
+                  alt="image search"
+                />
+                <div className=" hidden w-full h-full top-0  group-hover:flex gap-5 absolute justify-center items-center">
+                  <a
+                    href="https://github.com/RuthalaKiran/Dealspy-webscraping"
+                    target="_blank"
+                    className="flex items-center gap-1 hover:scale-105 duration-200 bg-gray-200 text-lg px-3 py-1 text-gray-700 rounded-full"
+                  >
+                    Code <FaGithub />{" "}
+                  </a>
+                  <a
+                    href="https://dealspy-frontend.onrender.com/"
+                    target="_blank"
+                    className="flex items-center gap-1 hover:scale-105 duration-200 bg-gray-700 text-gray-200 text-lg px-3 py-1 rounded-full"
+                  >
+                    Live <FaExternalLinkAlt />{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
