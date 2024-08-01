@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import myresume from "../../assets/kiran'sresume.pdf";
+import myresume from "../../assets/kiranresume.pdf";
 
 const Intro = () => {
   return (

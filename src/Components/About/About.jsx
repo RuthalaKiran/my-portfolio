@@ -6,10 +6,6 @@ const About = () => {
       <p className="text-xl">
         Hi, I'm <span className="text-red-600 font-semibold">Kiran !</span>
       </p>
-      {/* <p className=" text-sm text-gray-800 dark:text-gray-200 sm:text-lg md:text-sm lg:text-[17px]  ">
-        I'm a passionate frontend web developer currently in the 3rd year of my
-        CSE studies at GIET Engineering College.
-      </p> */}
       <p className="text-sm text-gray-800 dark:text-gray-200 sm:text-lg md:text-sm lg:text-lg">
         Final-year B.Tech student in Computer Science & Engineering with
         familiarity in front-end technologies (HTML, CSS, JavaScript, Bootstrap,
