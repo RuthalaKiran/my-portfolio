@@ -5,7 +5,10 @@ import js from "../../assets/js.png";
 import bootstrap from "../../assets/bootstrap.png";
 import react from "../../assets/react.png";
 import tailwind from "../../assets/tailwind.svg";
-import scss from "../../assets/sass.png";
+import node from "../../assets/node1.png";
+import express from "../../assets/express1.png";
+import mongodb from "../../assets/monogdb1.png";
+import python from "../../assets/python.png";
 import Title from "../Title/Title";
 
 const Skills = () => {
@@ -42,8 +45,23 @@ const Skills = () => {
     },
     {
       id: 7,
-      img: scss,
-      name: "SCSS",
+      img: node,
+      name: "Node",
+    },
+    {
+      id: 8,
+      img: express,
+      name: "Express",
+    },
+    {
+      id: 9,
+      img: mongodb,
+      name: "MongoDB",
+    },
+    {
+      id: 10,
+      img: python,
+      name: "Python",
     },
   ];
   return (
@@ -56,7 +74,7 @@ const Skills = () => {
             key={item.id}
             className="rounded-md hover:scale-105 duration-200 cursor-pointer w-[90px] h-20  sm:w-28 sm:h-28 flex flex-col items-center justify-center gap-2 bg-gray-200 dark:bg-gray-700"
           >
-            <img src={item.img} alt="" className={`${item.id === 6 ? "pt-1" : ""} w-10 sm:w-14 h-auto`} />
+            <img src={item.img} alt="" className={`${item.id === 6 ? "pt-1" : ""}   w-10 sm:w-14 h-auto`} />
             <p className={`${item.id === 6 ? "pt-2" : ""} text-gray-800 text-xs sm:text-md dark:text-gray-200 px-1 flex justify-center items-center sm:whitespace-nowrap`}>
               {item.name}
             </p>

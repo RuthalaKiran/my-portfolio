@@ -16,7 +16,7 @@ const Education = () => {
               GIET Engineering College
             </p>
             <p className="dark:text-gray-200 text-gray-800 text-xs lg:text-md md:text-sm">
-              currently pursuing (3<sup>rd</sup> year){" "}
+              currently pursuing Final year
             </p>
           </div>
           <div className="relative cursor-pointer before:duration-200 before:hover:scale-150 before:hover:bg-orange-400 before:cursor-pointer before:absolute before:w-3 before:h-3 before:bg-white dark:before:bg-blue-400 before:rounded-full before:-left-[32px] before:top-2">
@@ -28,7 +28,7 @@ const Education = () => {
               Sri Chaitanya Junior College
             </p>
             <p className="dark:text-gray-200 text-gray-800 lg:text-md md:text-sm text-xs">
-              Percentage: 93.4%
+              Percentage: 94.4%
             </p>
           </div>
           <div className="relative before:duration-200 cursor-pointer before:hover:scale-150 before:hover:bg-orange-400 before:cursor-pointer before:absolute before:w-3 before:h-3 before:bg-white dark:before:bg-blue-400 before:rounded-full before:-left-[32px] before:bottom-2">
