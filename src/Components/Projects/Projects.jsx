@@ -217,7 +217,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
+        
+        <hr className=" md:hidden w-full h-[1px] bg-gray-300 dark:bg-gray-600 border-none" />
         {/* project 4 DealSpy clone */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5 my-5">
           <div className="matter flex flex-col items-center md:items-end justify-center gap-5 ">
